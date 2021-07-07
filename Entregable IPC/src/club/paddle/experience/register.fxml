@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="850.0" style="-fx-background-color: maroon;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="club.paddle.experience.RegisterController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints maxHeight="140.8000015258789" minHeight="10.0" prefHeight="85.19998168945312" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="347.1999938964844" minHeight="10.0" prefHeight="308.00004882812493" vgrow="SOMETIMES" />
+    <RowConstraints maxHeight="219.0" minHeight="10.0" prefHeight="79.199951171875" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Text id="CLUB" strokeType="OUTSIDE" strokeWidth="0.0" text="REGISTRO DE USUARIO" textAlignment="CENTER" wrappingWidth="283.73669815063477" GridPane.columnIndex="1">
+         <GridPane.margin>
+            <Insets bottom="45.0" />
+         </GridPane.margin>
+      </Text>
+      <GridPane prefHeight="90.0" prefWidth="0.0" style="-fx-background-color: white;" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="107.20001220703125" minWidth="10.0" prefWidth="107.20001220703125" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="121.19999999999999" minWidth="10.0" prefWidth="109.6" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="106.40003662109373" minWidth="10.0" prefWidth="94.40003662109373" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="92.20001220703125" minWidth="7.199963378906261" prefWidth="19.19996337890626" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField id="TEXTFD" fx:id="CampoNombre" prefHeight="26.0" prefWidth="206.0" style="-fx-pref-width: 500;" GridPane.columnIndex="1" GridPane.columnSpan="2">
+               <GridPane.margin>
+                  <Insets top="30.0" />
+               </GridPane.margin>
+            </TextField>
+            <TextField fx:id="CampoApellidos" prefHeight="6.0" prefWidth="102.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1">
+               <padding>
+                  <Insets bottom="10.0" />
+               </padding>
+            </TextField>
+            <TextField fx:id="CampoTelefono" prefHeight="26.0" prefWidth="114.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="25.0" />
+               </GridPane.margin>
+            </TextField>
+            <Text id="REDTEXT" strokeType="OUTSIDE" strokeWidth="0.0" text="DATOS PERSONALES" textAlignment="CENTER" wrappingWidth="231.73673057556152" GridPane.columnSpan="2">
+               <GridPane.margin>
+                  <Insets bottom="85.0" />
+               </GridPane.margin>
+            </Text>
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre*" textAlignment="CENTER" wrappingWidth="107.24956893920898">
+               <GridPane.margin>
+                  <Insets top="30.0" />
+               </GridPane.margin>
+            </Text>
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos*" textAlignment="CENTER" wrappingWidth="107.58239364624023" GridPane.rowIndex="1" />
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Num. teléfono*" textAlignment="CENTER" wrappingWidth="107.5289306640625" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="25.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fx:id="nomerror" fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.53671264648438" GridPane.columnSpan="2">
+               <GridPane.margin>
+                  <Insets top="95.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fx:id="apellidoerror" fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.53671264648438" GridPane.columnSpan="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets top="60.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fx:id="teleferror" fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.53671264648438" GridPane.columnSpan="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets top="40.0" />
+               </GridPane.margin>
+            </Text>
+         </children>
+      </GridPane>
+      <GridPane style="-fx-background-color: white;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="116.5999755859375" minWidth="10.0" prefWidth="115.79998779296875" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.60002441406249" minWidth="10.0" prefWidth="69.40001220703124" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.59998168945313" minWidth="10.0" prefWidth="105.59998168945313" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="82.4000244140625" minWidth="10.0" prefWidth="16.800018310546875" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="CampoUserName" prefWidth="206.0" style="-fx-pref-width: 500;" GridPane.columnIndex="1" GridPane.columnSpan="2">
+               <GridPane.margin>
+                  <Insets top="30.0" />
+               </GridPane.margin>
+            </TextField>
+            <Text id="REDTEXT" strokeType="OUTSIDE" strokeWidth="0.0" text="DATOS DE LA CUENTA" textAlignment="CENTER" wrappingWidth="231.73673057556152">
+               <GridPane.margin>
+                  <Insets bottom="60.0" />
+               </GridPane.margin>
+            </Text>
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre de Usuario*" textAlignment="CENTER" wrappingWidth="93.90740942955017">
+               <GridPane.margin>
+                  <Insets left="10.0" top="20.0" />
+               </GridPane.margin>
+            </Text>
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña* (mínimo 6 carácteres)" textAlignment="CENTER" wrappingWidth="103.26324462890625" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin></Text>
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Repita la Contraseña*" textAlignment="CENTER" wrappingWidth="105.23516845703125" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Text>
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Imágen de perfil" textAlignment="CENTER" wrappingWidth="116.3538818359375" GridPane.rowIndex="3" />
+            <PasswordField fx:id="campoPass" prefWidth="206.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1" />
+            <PasswordField fx:id="campoRepPass" prefWidth="206.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+            <Text fx:id="usererror" fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.53671264648438">
+               <GridPane.margin>
+                  <Insets top="88.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fx:id="pswwderror" fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.53671264648438" GridPane.columnSpan="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets top="85.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fx:id="pswwdconferror" fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.53671264648438" GridPane.columnSpan="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets top="55.0" />
+               </GridPane.margin>
+            </Text>
+            <Button fx:id="botonImagen" mnemonicParsing="false" text="Buscar" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+      <GridPane style="-fx-background-color: white;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="104.79998779296875" minWidth="10.0" prefWidth="104.79998779296875" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="72.199951171875" minWidth="10.0" prefWidth="45.79990234374999" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.60009765625" minWidth="10.0" prefWidth="110.60009765625" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.800048828125" minWidth="10.0" prefWidth="26.40003356933596" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <TextField fx:id="CampoTarjeta" GridPane.columnIndex="1" GridPane.columnSpan="2" />
+            <TextField fx:id="CampoCVV" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Text id="REDTEXT" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMACIÓN DE PAGO" textAlignment="CENTER" wrappingWidth="231.73673057556152">
+               <GridPane.margin>
+                  <Insets bottom="85.0" />
+               </GridPane.margin>
+            </Text>
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de Tarjeta" textAlignment="CENTER" wrappingWidth="91.73675155639648">
+               <GridPane.margin>
+                  <Insets left="6.5" />
+               </GridPane.margin></Text>
+            <Text id="TEXTINFO" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de Seguridad (CVV)" textAlignment="CENTER" wrappingWidth="106.13671493530273" GridPane.rowIndex="1" />
+            <Text fx:id="tarjerror" fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.53671264648438" GridPane.columnSpan="2">
+               <GridPane.margin>
+                  <Insets top="60.0" />
+               </GridPane.margin>
+            </Text>
+            <Text fx:id="cvverror" fill="ORANGE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="232.53671264648438" GridPane.columnSpan="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets top="55.0" />
+               </GridPane.margin>
+            </Text>
+            <ImageView fx:id="imagen" fitHeight="80.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: white; -fx-font-style: oblique;" text="Los campos marcados con &quot;*&quot; son OBLIGATORIOS." textAlignment="CENTER" wrappingWidth="232.5367088317871">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Text>
+      <Button id="BOTONSD" fx:id="BotonVolver" mnemonicParsing="false" onAction="#completarRegistro" text="Cancelar" textAlignment="CENTER" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="27.5" />
+         </GridPane.margin>
+      </Button>
+      <Button id="BOTONSD" fx:id="BotonContinuar" mnemonicParsing="false" onAction="#completarRegistro" text="Continuar" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <GridPane.margin>
+            <Insets left="85.0" right="-100.0" />
+         </GridPane.margin>
+      </Button>
+      <Text fx:id="camposVacios" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="285.33673095703125" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+   </children>
+</GridPane>

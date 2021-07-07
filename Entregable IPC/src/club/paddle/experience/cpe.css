@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-abr-2020, 15:33:07
+    Author     : stefa
+*/
+#BOTONPR {
+    -fx-background-radius: 20px;
+    -fx-font-style: normal;
+    -fx-font-family: "Lucida";
+    -fx-font-size: 20px;
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: red;
+    -fx-border-radius: 20px;
+    -fx-border-color: red;
+    width: 200px;
+    height: 50px;
+}
+
+#BOTONPR:hover {
+    /*SOLO SE PONE LO QUE SE MODIFIQUE, LOS STATS NO MODIFICADOS NO 
+    ES OBLIGATORIO QUE SE MODIFIQUEN*/
+    -fx-font-style: italic;
+    -fx-font-family: "Lucida";
+    -fx-font-size: 20px;
+    -fx-background-color: red;
+    -fx-text-fill: whitesmoke;
+    -fx-border-radius: 20px;
+    -fx-border-color: whitesmoke;
+    
+}
+
+#BOTONPR:pressed {
+    /*mismos stats que botonpr pero cambio el color*/
+    -fx-background-color: #c90d0d;
+    
+}
+
+#BOTONSD {
+    -fx-background-radius: 20px;
+    -fx-font-style: normal;
+    -fx-font-family: "Lucida";
+    -fx-font-size: 11px;
+    -fx-background-color: whitesmoke;
+    -fx-text-fill: red;
+    -fx-border-radius: 20px;
+    -fx-border-color: red;
+    -fx-pref-height:30px;
+    -fx-pref-width: 170px;
+}
+
+#BOTONSD:hover {
+    -fx-background-radius: 20px;
+    -fx-font-style: italic;
+    -fx-font-family: "Lucida";
+    -fx-font-size: 11px;
+    -fx-background-color: red;
+    -fx-text-fill: whitesmoke;
+    -fx-border-radius: 20px;
+    -fx-border-color: whitesmoke;
+    
+}
+#BOTONSD:pressed {
+    /*mismos stats que botonpr pero cambio el color*/
+    -fx-background-color: #c90d0d;
+    
+}
+#BOTONSD:disabled {
+    -fx-background-color: grey;
+    -fx-text-fill: darkgrey;
+    -fx-border-color: darkgrey;
+}
+
+#TITULO {
+    -fx-background-color: red;
+    -fx-font-style: italic;
+    -fx-font-family: "Lucida";
+    -fx-fill: white;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+#CLUB {
+    -fx-background-color: red;
+    -fx-font-style: oblique;
+    -fx-font-family: "Lucida";
+    -fx-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#REDTEXT {
+    -fx-background-color: red;
+    -fx-font-style: oblique;
+    -fx-font-family: "Lucida";
+    -fx-fill: maroon;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    
+}
+#TEXTINFO {
+    -fx-background-color: red;
+    -fx-font-family: "Lucida";
+    -fx-fill: maroon;
+    -fx-font-size: 11.5px;
+    -fx-font-weight: bold;
+}
