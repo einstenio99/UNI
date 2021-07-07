@@ -1,2 +1,2 @@
-# Proyectos de la Universidad
-Aquí se podrán ver los proyectos que he ido haciendo en la Universidad. (:
+# CLUB PADDLE EXPERIENCE
+Este proyecto consiste en crear una aplicación de reserva de pistas de paddle en la que se hace énfasis en los métodos de reserva de pistas y creación de usuarios.
