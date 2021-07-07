@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NOL_Fv08">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="tomcat-i18n-cs.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-cs/tomcat-i18n-cs">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/catalina/catalina">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-tribes.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/catalina-tribes/catalina-tribes">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.25.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.7.25/slf4j-api-1.7.25">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasper.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasper/jasper">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ecj-4.17.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ecj-4.17/ecj-4.17">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jna-5.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jna-5.2.0/jna-5.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore5-testing-5.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpcore5-testing-5.0.2/httpcore5-testing-5.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-ru.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-ru/tomcat-i18n-ru">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-jni.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-jni/tomcat-jni">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-ssi.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/catalina-ssi/catalina-ssi">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient5-5.0.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient5-5.0.3/httpclient5-5.0.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsp-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsp-api/jsp-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="websocket-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/websocket-api/websocket-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="el-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/el-api/el-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-ko.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-ko/tomcat-i18n-ko">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-de.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-de/tomcat-i18n-de">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-api/tomcat-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-ant.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/catalina-ant/catalina-ant">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasper-el.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jasper-el/jasper-el">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="annotations-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/annotations-api/annotations-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-storeconfig.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/catalina-storeconfig/catalina-storeconfig">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-coyote.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-coyote/tomcat-coyote">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-20210307.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/json-20210307/json-20210307">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jaspic-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jaspic-api/jaspic-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/servlet-api/servlet-api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-es.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-es/tomcat-i18n-es">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jna-platform-5.2.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jna-platform-5.2.0/jna-platform-5.2.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-zh-CN.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-zh-CN/tomcat-i18n-zh-CN">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient5-cache-5.0.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient5-cache-5.0.3/httpclient5-cache-5.0.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-util.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-util/tomcat-util">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient5-fluent-5.0.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient5-fluent-5.0.3/httpclient5-fluent-5.0.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="reactive-streams-1.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/reactive-streams-1.0.2/reactive-streams-1.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-fr.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-fr/tomcat-i18n-fr">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient5-testing-5.0.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient5-testing-5.0.3/httpclient5-testing-5.0.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-ha.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/catalina-ha/catalina-ha">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore5-5.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpcore5-5.0.2/httpcore5-5.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-ja.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-ja/tomcat-i18n-ja">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-jdbc.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-jdbc/tomcat-jdbc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-codec-1.13.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-codec-1.13/commons-codec-1.13">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-util-scan.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-util-scan/tomcat-util-scan">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-dbcp.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-dbcp/tomcat-dbcp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-pt-BR.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-i18n-pt-BR/tomcat-i18n-pt-BR">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpclient5-win-5.0.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpclient5-win-5.0.3/httpclient5-win-5.0.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="rxjava-2.2.8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/rxjava-2.2.8/rxjava-2.2.8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-cli-1.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-cli-1.4/commons-cli-1.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore5-h2-5.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpcore5-h2-5.0.2/httpcore5-h2-5.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="httpcore5-reactive-5.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/httpcore5-reactive-5.0.2/httpcore5-reactive-5.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="gson-2.8.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/gson-2.8.6/gson-2.8.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-websocket.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/tomcat-websocket/tomcat-websocket">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.9.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.7.9/slf4j-api-1.7.9">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="NOL_Fv08"/>
+        <property name="java-output-path" value="/NOL_Fv08/build/classes"/>
+    </wb-module>
+</project-modules>

@@ -1,0 +1,33 @@
+#intro{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+   
+}
+
+#inicios{
+    margin-left: 2%;
+}
+
+#nombres{
+    background-color: rgb(204, 237, 241);
+    border-radius: 15px;
+}
+
+#pie{margin-left: 2%;}
+
+#link {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
